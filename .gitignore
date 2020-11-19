@@ -1,0 +1,4 @@
+.DS_Store
+.prettierrc.json
+client/node_modules
+server/node_modules
