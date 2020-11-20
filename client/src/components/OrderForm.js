@@ -111,7 +111,7 @@ class OrderForm extends React.Component {
     return (
       <form
         onSubmit={this.props.handleSubmit(this.onSubmit)}
-        className="ui form error success"
+        className="ui form error"
       >
         <h3 className="ui dividing header violet">Order Information</h3>
         <div className="ui grid">
@@ -212,14 +212,14 @@ class OrderForm extends React.Component {
             />
           </div>
         </div>
-        <div className="ui success message">
+        {/* <div className="ui success message">
           <div className="header">Order Submitted</div>
           <p>You're all set for your magic potion!</p>
         </div>
         <div className="ui error message">
           <div className="header">Order Not Submitted</div>
           <p>You can't order more than 3 magic potions per month.</p>
-        </div>
+        </div> */}
         <button className="ui button violet">Submit</button>
       </form>
     );
