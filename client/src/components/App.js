@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import OrderCreate from './OrderForm';
+import OrderCreate from './OrderCreate';
 
 const App = () => {
   return (
