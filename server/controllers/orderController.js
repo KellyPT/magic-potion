@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const DB = `${__dirname}/../dev-data/orders.json`;
+const DB = `${__dirname}/../db-dev/orders.json`;
 const orders = JSON.parse(fs.readFileSync(DB));
 
 exports.getAllOrders = (req, res) => {
